@@ -1,0 +1,175 @@
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) { 
+    .menubtn{
+        display: initial;
+        width: 40px;
+    }
+    .menubtn i {
+        font-size: 30px;
+    }
+    .menu {
+        text-align: start;
+        display: none;
+        flex-direction: column;
+        padding-top: 20px;
+
+    }
+    .menu.show{
+        display: block;
+    }
+    .menu a {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        color: black;
+        display: inline-block;
+        transition: .3s;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .menu a:hover{
+        background: #8393FF;
+        padding: 10px 10px;
+        color: #fff;
+    }
+    .home .col-lg-6:nth-child(1){
+        order: 1;
+    }
+    .home-img img {
+        width: 90%;
+        height: 70vh;
+    }
+    section{
+        padding: 50px 8%;
+    }
+    .home-img {
+        text-align: center;
+    }
+    .home-text button {
+        padding: 10px 20px;
+    }
+    .about-text button {
+        padding: 10px 20px;
+    }
+    .about-text p {
+        margin-top: 10px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+    .title-section {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .title-section h2 {
+        font-size: 60px;
+    }
+    .cardd {
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) {
+    .menubtn{
+        display: initial;
+        width: 40px;
+    }
+    .menubtn i {
+        font-size: 30px;
+    }
+    .menu {
+        text-align: start;
+        flex-direction: column;
+        padding-top: 20px;
+        display: none;
+        margin-top: 50px;
+        border-top: 1px solid rgb(54, 54, 54);
+    }
+    .menu.show{
+        display: block;
+    }
+    .menu a {
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+        display: inline-block;
+        transition: .3s;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .menu a:hover{
+        background: #8393FF;
+        padding: 10px 10px;
+        color: #fff;
+    }
+    .home-img {
+        text-align: center;
+    }
+    .home-img img {
+        width: 100%;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .home .col-lg-6:nth-child(1){
+        order: 1;
+    }
+    .about {
+        min-height: 70vh;
+    }
+    .title-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .home-text p {
+        font-weight: normal;
+        font-size: 22px;
+    }
+    .home-text button {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    .about-text button {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    .about-text p {
+        line-height: 30px;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .title-section h2 {
+        font-size: 70px;
+    }
+    .title-section p {
+        font-size: 20px;
+        width: 90%;
+        line-height: 27px;
+        margin: 0 auto;
+    }
+    .cardd {
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .services {
+        margin-top: 0px;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
